@@ -35,6 +35,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           pwd
+          ls -lah
           npm install -g postcss-cli
           npm install -D autoprefixer
           npm install -D postcss

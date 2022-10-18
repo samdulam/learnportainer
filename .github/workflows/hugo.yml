@@ -34,6 +34,7 @@ jobs:
     steps:
       - name: Install Hugo CLI
         run: |
+          pwd
           npm install -g postcss-cli
           npm install -D autoprefixer
           npm install -D postcss
@@ -52,6 +53,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          pwd
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"

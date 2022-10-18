@@ -1,8 +1,7 @@
 
 ---
-title: "Documentation"
-linkTitle: "Documentation"
-weight: 20
+cascade:
+  type: "docs"
 menu:
   main:
     weight: 20

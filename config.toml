@@ -1,4 +1,5 @@
-baseURL = "/" #"https://learn.samstech.blog"
+# baseURL = "/" 
+baseURL = "https://learn.samstech.blog"
 title = "University"
 
 # Language settings

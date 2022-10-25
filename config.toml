@@ -1,5 +1,5 @@
-# baseURL = "/" 
-baseURL = "https://learn.samstech.blog"
+baseURL = "/" 
+# baseURL = "https://learn.samstech.blog"
 title = "University"
 
 # Language settings
@@ -160,7 +160,7 @@ prism_syntax_highlighting = false
 # User interface configuration
 [params.ui]
 #  Set to true to disable breadcrumb navigation.
-breadcrumb_disable = false
+breadcrumb_disable = true
 # Set to true to disable the About link in the site footer
 footer_about_disable = true
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
@@ -218,7 +218,7 @@ enable = true
   desc = "Join discussion at r/portainer"
 [[params.links.developer]]
   name = "Discord"
-  url = "https://www.reddit.com/r/portainer/"
+  url = "https://discord.com/invite/j8fVken"
   icon = "fab fa-discord"
   desc = "Join community on Discord"
 

@@ -1,0 +1,48 @@
+// Remove Extra padding and Link above Left side Nav
+.td-sidebar-link {
+    display: none;   
+}
+.td-sidebar-link.tree-root{
+    display: none;
+}
+
+// Active item color and Icons before menu
+li.td-sidebar-nav__section-title {
+    span.td-sidebar-nav-active-item {
+        // content: "➔ ";
+        color: $primary;
+        // visibility: visible;
+    
+    }
+    span:before {
+      content: "❉ ";
+      visibility: hidden;
+      opacity: 90%;
+    }
+    li.with-child span:before {
+      color: $primary;
+      //opacity: 90%;
+      visibility: visible;
+    }
+    li.with-child span.td-sidebar-nav-active-item:before {
+        content: "❯❯ ";
+        color: $secondary;
+        visibility: visible;
+      }
+    // Show a different icon/colour for each item on the active path
+    // so you can see where you are in the tree
+    li.active-path > a > span:before {
+      content: "❯❯ ";
+      color: $secondary;
+      visibility: visible;
+    }
+    li.without-child span.td-sidebar-nav-active-item:before {
+        content: "❯ ";
+        color: $secondary;
+        visibility: visible;
+    }
+    // No icon for leaves unless they are covered by active path rule above
+    li.without-child span:before {
+      visibility: hidden;
+    }
+  }

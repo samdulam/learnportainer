@@ -1,3 +1,21 @@
+// Text Colors
+h1 {
+  color: $primary;
+}
+h2 {
+  color: $secondary;
+}
+h3 {
+  color: $secondary;
+}
+h4 {
+  color: $secondary;
+}
+h5 {
+  color: $secondary;
+}
+
+
 // Remove Extra padding and Link above Left side Nav
 .td-sidebar-link {
     display: none;   
@@ -5,6 +23,7 @@
 .td-sidebar-link.tree-root{
     display: none;
 }
+
 
 // Active item color and Icons before menu
 li.td-sidebar-nav__section-title {

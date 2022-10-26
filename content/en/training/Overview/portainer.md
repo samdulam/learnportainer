@@ -10,10 +10,12 @@ description: >
 <!-- <img style="float: right;" src="/img/whatisportainer.png"> -->
 Portainer is a centralized container management platform.
 Portainer accelerates container adoption. It reduces operational complexity and addresses the challenges of running containers in Docker, Podman, Nomad and Kubernetes. 
+
 ![what is portainer](/img/whatisportainer.png)
 
 Portainer is the only Container management platform that supports Docker, Podman, Kubernetes, and every managed Kubernetes service on the market.
 ![Competetive Landscape](/img/complandscape.png)
+
 **Portainer is the only tool that operates from Data Center to Cloud to Edge.**
 
 ## Portainer Platform
@@ -31,3 +33,24 @@ Portainer is the only Container management platform that supports Docker, Podman
 + Secure Developer and Operations access to environments is hard to manage without tooling.
 
 
+
+
+## Install the Flux CLI
+
+The Flux CLI is available as a binary executable for all major platforms,
+the binaries can be downloaded form GitHub
+[releases page](https://github.com/fluxcd/flux2/releases).
+
+{{< tabpane text=true >}}
+{{% tab header="Homebrew" %}}
+
+Test with simple text
+
+{{% /tab %}}
+{{% tab header="bash" %}}
+
+Next line
+
+{{% /tab %}}
+
+{{< /tabpane >}}
